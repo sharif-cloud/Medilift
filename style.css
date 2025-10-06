@@ -3,3 +3,32 @@
   padding: 0;
 
 }
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 91px;
+  padding: 1.2rem 3rem;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 157px;
+    height: 37px;
+}
+.navbar ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #3b2d1f;
+  font-weight: 500;
+}
